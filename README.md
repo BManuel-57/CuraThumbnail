@@ -14,3 +14,5 @@ This plugin will embed a thumbnail (using Prusa picture encoding) of the object(
 5. On the new Window click on **Add a script**
 6. Choose **Embed Prusa Thumbnail**
 7. Tick the checkbox **Embed a preview image...***
+
+![Usage](https://github.com/BManuel-57/CuraThumbnail/blob/master/Overview.png?raw=true)
