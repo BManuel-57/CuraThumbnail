@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# CuraThumbnail
 
-You can use the [editor on GitHub](https://github.com/BManuel-57/CuraThumbnail/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Feature
+This plugin will embed a thumbnail (using Prusa picture encoding) of the object(s) sliced in GCode, the picture will be present as comments, so there is no impact on the printing.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* This thumbnail could be used in Octoprint to have an overview of the files : [PrusaSlicer Thumbnails](https://plugins.octoprint.org/plugins/prusaslicerthumbnails/)
+* It's also possible to see the thumbnail directly in Windows Explorer as an icon of the Gcode file: [GcodeThumbnailExtension](https://github.com/jkavalik/GcodeThumbnailExtension/releases)
 
-### Markdown
+## Install
+1. Donwload the file **PrusaMods.py** 
+2. Place it in the folder **plugins\PostProcessingPlugin\scripts** of your install of **Ultimaker Cura**
+3. Start/Restart Cura
+4. Open the menu : **Extensions -> Post Processing -> Modify G-Code**
+5. On the new Window click on **Add a script**
+6. Choose **Embed Prusa Thumbnail**
+7. Tick the checkbox **Embed a preview image...***
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BManuel-57/CuraThumbnail/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Usage](https://github.com/BManuel-57/CuraThumbnail/blob/master/Overview.png?raw=true)
