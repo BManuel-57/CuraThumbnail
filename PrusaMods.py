@@ -80,7 +80,8 @@ class PrusaMods(Script):
         # QtGui.QPixmap(image)
         # pixmap = QPixmap(self._thumbnail)
         imageNoAlpha = QPixmap(self._thumbnail.width(), self._thumbnail.height()).toImage();
-        imageNoAlpha.fill(Qt.white)
+        #imageNoAlpha.fill(Qt.white) NOT PRESENT ANYMORE
+        imageNoAlpha.fill(QColor(255, 255, 255))
         painter = QPainter()
         painter.begin(imageNoAlpha)
         painter.drawImage(0, 0, self._thumbnail)
