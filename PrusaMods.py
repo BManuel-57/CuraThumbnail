@@ -4,12 +4,14 @@
 
 # Description:  This plugin embed a thumbnail of the object(s)
 
+
 from ..Script import Script
 from cura.Snapshot import Snapshot
 from UM.Logger import Logger
 import re
-from PyQt5.QtCore import QByteArray, QBuffer, Qt
-from PyQt5.QtGui import QPixmap, QImage, QPainter, QColor
+# import base64
+from PyQt6.QtCore import QByteArray, QBuffer, Qt
+from PyQt6.QtGui import QPixmap, QImage, QPainter, QColor
 
 
 class PrusaMods(Script):
